@@ -1,0 +1,293 @@
+input.placeholder {
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+input[type="text"]::placeholder {     
+    text-align: right;  
+  }  
+  input[type="text"]::placeholder {  
+   text-align: right;  
+  } 
+
+
+
+.header {
+    color: #0077b6;
+}
+
+.forminput{
+    border: none;
+    
+    
+}
+.inputfeidl{
+    border: blue;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 500px;
+
+}
+.weather {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    margin: 20px 0;
+    
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
+ 
+  .weather-info {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline;
+    
+    
+    align-items: center;
+    
+    padding-top: 0;
+    
+
+  }
+  
+  .weather-info h2 {
+    margin: 0;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .search {
+    background-color: rgb(rgb(0, 138, 7), green, blue);
+    border: 1px solid red;
+   
+  }
+
+
+
+.conbtn {
+    
+    display: flex;
+    position: relative;
+    justify-items: center;
+
+}
+
+.description{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#p1,#p2,#p3,#p4 {
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+
+/* From Uiverse.io by Nawsome */ 
+/*bg*/
+/*txt*/
+/*success*/
+.buttons {
+    justify-content: center;
+   
+    display: flex;
+    position: relative;
+    border-radius: 8px;
+
+   
+  }
+
+
+  .buttons button {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 68, 85);
+    margin: 20px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .buttons button:before, .buttons button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #44d8a4;
+    transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+  .buttons button:before {
+    right: 0;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+    
+  }
+  
+  .buttons button:after {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .buttons button span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .buttons button span:before, .buttons button span:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 0;
+    background-color: #44d8a4;
+    transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+    
+  }
+  
+  .buttons button span:before {
+    right: 0;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+    
+  }
+  
+  .buttons button span:after {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .buttons button p {
+    padding: 0;
+    margin: 0;
+    transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .buttons button p:before, .buttons button p:after {
+    position: absolute;
+    width: 100%;
+    transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+    z-index: 1;
+    left: 0;
+  }
+  
+  .buttons button p:before {
+    content: attr(data-title);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .buttons button p:after {
+    content: attr(data-text);
+    top: 150%;
+    color: #44d8a4;
+  }
+  
+  .buttons button:hover:before, .buttons button:hover:after {
+    width: 100%;
+  }
+  
+  .buttons button:hover span {
+    z-index: 1;
+  }
+  
+  .buttons button:hover span:before, .buttons button:hover span:after {
+    height: 100%;
+  }
+  
+  .buttons button:hover p:before {
+    top: -50%;
+    transform: rotate(5deg);
+  }
+  
+  .buttons button:hover p:after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .buttons button.start {
+    background-color: #44d8a4;
+    box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  .buttons button.start p:before {
+    top: -50%;
+    transform: rotate(5deg);
+  }
+  
+  .buttons button.start p:after {
+    color: white;
+    transition: all 0s ease;
+    content: attr(data-start);
+    top: 50%;
+    transform: translateY(-50%);
+    animation: start 0.3s ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes start {
+    from {
+      top: -50%;
+    }
+  }
+  
+  .buttons button.start:hover:before, .buttons button.start:hover:after {
+    display: none;
+  }
+  
+  .buttons button.start:hover span {
+    display: none;
+  }
+  
+  .buttons button:active {
+    outline: none;
+    border: none;
+  }
+  
+  .buttons button:focus {
+    outline: 0;
+  }
+
+
